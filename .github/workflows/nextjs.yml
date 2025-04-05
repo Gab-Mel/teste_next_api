@@ -2,6 +2,10 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
+defaults:
+  run:
+    working-directory: ./app
+
 name: Deploy Next.js site to Pages
 
 on:
