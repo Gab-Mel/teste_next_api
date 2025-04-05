@@ -28,6 +28,8 @@ jobs:
 
       - name: Build the project
         run: npm run build
+        env:
+          EB_TOKEN: ${{ secrets.EB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
