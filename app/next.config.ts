@@ -2,8 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactStrictMode: true,
+  /*reactStrictMode: true,*/
   output: 'export',
 };
 
-export default nextConfig;
+/*export default nextConfig;*/
+module.exports = nextConfig;
